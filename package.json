@@ -1,6 +1,6 @@
 {
   "name": "catcaster-zapier",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Zapier integration for CatCaster (public API + outbound webhooks)",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/picaro/catcaster-zapier.git"
+  },
+  "devDependencies": {
+    "zapier-platform-cli": "^15.19.0"
   }
 }
